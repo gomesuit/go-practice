@@ -2,8 +2,9 @@ package main
 
 import (
 	"log"
-	"github.com/gorilla/websocket"
 	"net/http"
+
+	"github.com/gorilla/websocket"
 )
 
 type room struct {
